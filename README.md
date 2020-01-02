@@ -10,6 +10,8 @@ To install `luizeof/php-rest-api`, run this command on your terminal:
 composer require luizeof/php-rest-api
 ```
 
+## Importing
+
 Import `autoload` on your project:
 
 ```php
