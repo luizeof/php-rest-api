@@ -10,6 +10,12 @@ On your terminal:
 composer require luizeof/php-rest-api
 ```
 
+Import on your project:
+
+```php
+
+```
+
 ## Sample Usage
 
 ```php
@@ -17,7 +23,7 @@ composer require luizeof/php-rest-api
 
 try {
 
-    $api = newRestAPI();
+    $api = luizeof\RestAPI();
 
     // Use this callback to make your username / password
     // validation logic returning true or false
