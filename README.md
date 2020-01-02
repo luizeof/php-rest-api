@@ -2,6 +2,14 @@
 
 Easy way to create a PHP REST API with ```Basic Authentication```
 
+## Installing
+
+On your terminal:
+
+```bash
+composer require luizeof/php-rest-api
+```
+
 ## Sample Usage
 
 ```php
