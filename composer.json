@@ -1,0 +1,19 @@
+{
+    "name": "luizeof/php-rest-api",
+    "description": "Easy way to create a PHP Rest API with Basic Authentication",
+    "type": "library",
+    "license": "GPL",
+    "authors": [{
+        "name": "luizeof",
+        "email": "luizeof@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.26"
+    },
+    "autoload": {
+        "psr-0": {
+            "luizeof": "lib/"
+        }
+    }
+}

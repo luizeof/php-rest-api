@@ -1,10 +1,10 @@
 <?php
 
-require 'php-rest-api-class.php';
+require 'lib/php-rest-api-class.php';
 
 try {
 
-    $api = new RestAPI();
+    $api = new luizeof\RestAPI();
 
     $api->validate_auth(function () use ($api) {
 
