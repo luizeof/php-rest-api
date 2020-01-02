@@ -23,11 +23,11 @@ try {
 
     }); // validate_auth()
 
-$arr = array('id' => 1, 'title' => "Exemplo", 'date' => "01/01/2020", 'tags'=> array("php","docker","flutter"), 'author' => "luizeof");
+    $arr = array('id' => 1, 'title' => "Exemplo", 'date' => "01/01/2020", 'tags'=> array("php","docker","flutter"), 'author' => "luizeof");
 
-$api->array_to_json($arr);
+    $api->array_to_json($arr);
 
-$api->request_success();
+    $api->request_success();
 
 } catch (Throwable $t) {
 
