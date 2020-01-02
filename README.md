@@ -4,13 +4,13 @@ Easy way to create a PHP REST API with ```Basic Authentication```
 
 ## Installing
 
-Install `luizeof/php-rest-api` on your terminal:
+To install `luizeof/php-rest-api`, run this command on your terminal:
 
 ```bash
 composer require luizeof/php-rest-api
 ```
 
-Import `compose` on your project:
+Import `autoload` on your project:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
