@@ -13,7 +13,7 @@ composer require luizeof/php-rest-api
 Import on your project:
 
 ```php
-
+require __DIR__ . '/vendor/autoload.php';
 ```
 
 ## Sample Usage
