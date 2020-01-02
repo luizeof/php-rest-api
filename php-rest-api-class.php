@@ -1,5 +1,7 @@
 <?php
 
+namespace luizeof;
+
 error_reporting(0);
 
 class RestAPI
